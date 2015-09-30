@@ -1,0 +1,204 @@
+@media screen and ( max-width : 1030px ) {
+    #about_content { padding: 15px 0 0 3%; }
+    
+    .menu_container {
+        height: auto; 
+        margin: -35px 0px 0px 30px;
+		padding-bottom:0px;
+    }
+    
+    #menu_top { 
+        padding: 5px 0 9px 0;
+    }
+    
+    .menu_footer {
+        bottom:-15px;
+    }
+}
+
+/*-----------------------------------------------------------------------------*/
+@media screen and (max-width : 770px) {
+    
+    #_logo {margin: 0px 0 0 0; }
+    
+    #lamantin:hover { background-position: bottom; }
+    #mako:hover { background-position: bottom; }
+    #jazz:hover { background-position: bottom; }
+    #erzsebet:hover { background-position: bottom; }
+    #bkk:hover { background-position: bottom; }
+    #bodor:hover { background-position: bottom; }
+    #gorilla:hover { background-position: bottom; }
+    #crossovers:hover { background-position: bottom; }
+    #hc:hover { background-position: bottom; }
+    #maurer:hover { background-position: bottom; }
+    #myd:hover { background-position: bottom; }
+    #odoor:hover { background-position: bottom; }
+    #conductor:hover { background-position: bottom; }
+    #smoke:hover { background-position: bottom; }
+    #logos:hover { background-position: bottom; }
+    #posters:hover { background-position: bottom; }
+    
+    #char_container, #char_container_top, .char {display: none;}
+    
+    #main_wrapper { margin: 5px 0 0 8px; }
+    
+    .main_content { padding: 0; }
+    
+    #thumbnails { height: auto; }
+    
+    .thumbnail {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+    
+    /**********************MENU***********************/
+    .menu_container {
+	position: static;
+	left: 0;
+	height: auto;
+	width: 280px;
+	margin: -30px 0px 0px 0px;
+    }
+    .menu_container:hover {
+	height: auto;
+    }
+    
+    .menu_container ul{display: none;}
+    
+    #menu_top { padding: 0px 0 9px 0;}
+    
+    .menu_footer {
+        bottom:0;
+        position:static;
+        padding:10px 0 10px 0;
+    }
+    
+    #toggle_menu {
+        width:58px;
+	height:24px;
+        padding:6px 0 0px 14px;
+        background: #26a7de;
+        cursor: pointer;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    #toggle_menu p{
+        color:white;
+	font-size:15px;
+    }
+    
+    #images {min-width:300px; padding:0px 8px 0px 0px; }
+    
+    #about_content {padding: 35px 0 0 3%;}
+    
+    #footer { width:68%;}
+}
+
+/*-----------------------------------------------------------------------------*/
+@media screen and ( max-width : 610px ) {
+    .thumbnail {
+        width: 260px;
+        height: 173px;
+    }
+    
+    #about_content { padding: 15px 0 0 3%; }
+}
+
+/*-----------------------------------------------------------------------------*/
+@media screen and ( max-width : 580px ) {
+    .thumbnail {
+        width: 240px;
+        height: 160px;
+    }
+}
+
+/*-----------------------------------------------------------------------------*/
+@media screen and ( max-width : 560px ) {
+    .thumbnail {
+        width: 300px;
+        height: 199px;
+        float: none;
+        margin: 0 10px 20px 0;
+    }
+
+    /*******************PROJECTS*******************/
+    
+    .behance_button {margin-bottom: 10px;}
+    
+    /***************PUBLICATOINS********************/
+    .publications_content p, .publications_content a, #photo_name p {
+        font-size: 10px;
+    }
+    
+    .publications_content p, .publications_content h2{ padding-left: 2%; }
+    
+    .publications_content .left_panel {
+        width:100%;
+        float:none;
+        margin:0 0px 0 0;
+        padding:0px 0% 0 0%;
+        border-bottom:1px solid #26a7de;
+        border-right: none;
+    }
+
+    .publications_content .right_panel {
+        width:100%;
+        float:none;
+    }
+    
+    .publications_content .right_panel div,
+    #right_panel div {
+            margin-bottom:20px;
+            border-bottom:none;
+    }
+    
+    /*************************ABOUT*******************/
+    #about_main p, #about_main h2{ padding-left: 2%; }
+    
+    #about_contact {
+        border-left:none;
+        padding-left:0%;
+    }
+
+    #about_content {
+        padding: 30px 0 20px 0;
+        border-right:none;
+        border-bottom:1px solid #26a7de;
+    }
+    
+    #about_spacer {
+        border-bottom:1px solid #26a7de;
+        margin-left: 2%;
+        height:25px;
+    }
+    
+    #bottom_panel {
+	padding:20px 0 0px 0;
+	margin-top:0px;
+    }
+
+    #bottom_panel a {
+        width: 50%;
+        float:none;
+        padding-right:0%;
+    }
+
+    #bottom_panel a img {
+        padding: 0 0 0px 0;
+    }
+
+    #footer {
+        width:300px;
+        padding: 0 0 5px 0;
+    }
+
+    #footer span {font-size:7px;}
+
+    #footer a {font-size: 10px;}
+    
+    .spacer_div {
+        height:0px; 
+        border: none;
+    }
+}
